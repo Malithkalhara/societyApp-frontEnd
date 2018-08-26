@@ -1,0 +1,28 @@
+<div>
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo ">
+      <mdb-navbar-brand >
+          <a routerLink="/Society" class="navbar-brand" >Society name</a> 
+      </mdb-navbar-brand>
+      <links>
+          <ul class="navbar-nav">
+              <li class="nav-item" [routerLinkActive] = "['active']">
+                  <a routerLink="/society" id="home" class="nav-link waves-light" mdbWavesEffect><i class="fa fa-home prefix"></i>Home</a>
+              </li>
+              <li class="nav-item" [routerLinkActive] = "['active']">
+                  <a routerLink="/aboutsoc" class="nav-link waves-light" mdbWavesEffect>About</a>
+              </li>
+              <li class="nav-item" [routerLinkActive] = "['active']">
+                  <a routerLink="/addsoc" class="nav-link waves-light" mdbWavesEffect>Get Involved</a>
+              </li>
+              <li class="nav-item" [routerLinkActive] = "['active']">
+                  <a routerLink="/activities" class="nav-link waves-light" mdbWavesEffect>Activities</a>
+              </li>
+  
+              <li class="nav-item" [routerLinkActive] = "['active']">
+                  <a  class="nav-link waves-light" mdbWavesEffect>Contact us</a>
+              </li>   
+          </ul>
+      </links>
+  </mdb-navbar>
+</div>
+
