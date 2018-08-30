@@ -18,10 +18,10 @@ export class RegformComponent implements OnInit {
     this.registerForm = fb.group({
     name: ['', Validators.required],
     email: ['', [Validators.required, Validators.email]],
+    user: ['', Validators.required],
     password: ['', [Validators.required, Validators.minLength(8)]],
     cpassword: ['', [Validators.required, Validators.minLength(8)]],
-    accno: ['', Validators.required],
-    members: ['', Validators.required]
+    accno: ['', Validators.required]
     });
   }
 
